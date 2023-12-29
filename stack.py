@@ -2,7 +2,7 @@ from troposphere import (
     Template,
     Parameter,
     GetAtt,
-    Output,
+    Output
 )
 
 from troposphere.awslambda import Function, Code, Permission, Environment, Url
